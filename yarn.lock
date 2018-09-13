@@ -1192,7 +1192,7 @@ broccoli-lint-eslint@^4.2.1:
     lodash.defaultsdeep "^4.6.0"
     md5-hex "^2.0.0"
 
-broccoli-merge-trees@^1.0.0:
+broccoli-merge-trees@^1.0.0, broccoli-merge-trees@^1.1.1:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/broccoli-merge-trees/-/broccoli-merge-trees-1.2.4.tgz#a001519bb5067f06589d91afa2942445a2d0fdb5"
   dependencies:
@@ -1990,6 +1990,17 @@ ember-cli-dependency-checker@^3.0.0:
     resolve "^1.5.0"
     semver "^5.3.0"
 
+ember-cli-deprecation-workflow@^0.2.5:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/ember-cli-deprecation-workflow/-/ember-cli-deprecation-workflow-0.2.5.tgz#5d4b199f5fd510d6ea56e3a83a9f1a4767c5d200"
+  dependencies:
+    broccoli-funnel "^1.0.1"
+    broccoli-kitchen-sink-helpers "^0.3.1"
+    broccoli-merge-trees "^1.1.1"
+    ember-debug-handlers-polyfill "^1.0.2"
+    quick-temp "^0.1.5"
+    rimraf "^2.5.2"
+
 ember-cli-eslint@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/ember-cli-eslint/-/ember-cli-eslint-4.2.3.tgz#2844d3f5e8184f19b2d7132ba99eb0b370b55598"
@@ -2266,6 +2277,10 @@ ember-data@~3.4.0:
     resolve "^1.8.1"
     semver "^5.5.0"
     silent-error "^1.1.0"
+
+ember-debug-handlers-polyfill@^1.0.2:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/ember-debug-handlers-polyfill/-/ember-debug-handlers-polyfill-1.1.1.tgz#e9ae0a720271a834221179202367421b580002ef"
 
 ember-export-application-global@^2.0.0:
   version "2.0.0"
@@ -5259,7 +5274,7 @@ ret@~0.1.10:
   version "0.1.15"
   resolved "https://registry.yarnpkg.com/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
 
-rimraf@^2.2.8, rimraf@^2.3.4, rimraf@^2.4.3, rimraf@^2.4.4, rimraf@^2.5.3, rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.2:
+rimraf@^2.2.8, rimraf@^2.3.4, rimraf@^2.4.3, rimraf@^2.4.4, rimraf@^2.5.2, rimraf@^2.5.3, rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.2.tgz#2ed8150d24a16ea8651e6d6ef0f47c4158ce7a36"
   dependencies:
